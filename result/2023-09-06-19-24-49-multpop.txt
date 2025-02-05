@@ -1,0 +1,82 @@
+2023-09-06 19:24:55
+epoch: 0
+loss: tensor(415.3855, device='cuda:0', grad_fn=<AddBackward0>)
+2023-09-06 19:26:44
+recall: 0.0193866273715233ndcg: 0.005895749682965992
+2023-09-06 19:26:44
+epoch: 1
+loss: tensor(318.5598, device='cuda:0', grad_fn=<AddBackward0>)
+2023-09-06 19:28:35
+recall: 0.02873457358629582ndcg: 0.009089044462998967
+2023-09-06 19:28:35
+epoch: 2
+loss: tensor(303.5185, device='cuda:0', grad_fn=<AddBackward0>)
+2023-09-06 19:30:23
+recall: 0.03868115675078283ndcg: 0.012144204142334815
+2023-09-06 19:30:23
+epoch: 3
+loss: tensor(300.4846, device='cuda:0', grad_fn=<AddBackward0>)
+2023-09-06 19:32:10
+recall: 0.04512801620924664ndcg: 0.01382343888060993
+2023-09-06 19:32:10
+epoch: 4
+loss: tensor(298.8636, device='cuda:0', grad_fn=<AddBackward0>)
+2023-09-06 19:33:56
+recall: 0.0502394547798858ndcg: 0.015137559253221937
+2023-09-06 19:33:56
+epoch: 5
+loss: tensor(297.7522, device='cuda:0', grad_fn=<AddBackward0>)
+2023-09-06 19:35:42
+recall: 0.054383864431755385ndcg: 0.01623916723042849
+2023-09-06 19:35:42
+epoch: 6
+loss: tensor(296.8575, device='cuda:0', grad_fn=<AddBackward0>)
+2023-09-06 19:37:28
+recall: 0.05746914717259164ndcg: 0.016970902606937517
+2023-09-06 19:37:28
+epoch: 7
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-09-06 19:39:14
+recall: 0.05746914717259164ndcg: 2.128370208297476e-05
+2023-09-06 19:3  9:14
+epoch: 8
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-09-06 19:40:59
+recall: 0.05746914717259164ndcg: 2.128370208297476e-05
+2023-09-06 19:40:59
+epoch: 9
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-09-06 19:42:44
+recall: 0.05746914717259164ndcg: 2.128370208297476e-05
+2023-09-06 19:42:44
+epoch: 10
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-09-06 19:44:30
+recall: 0.05746914717259164ndcg: 2.128370208297476e-05
+2023-09-06 19:44:30
+epoch: 11
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-09-06 19:46:15
+recall: 0.05746914717259164ndcg: 2.128370208297476e-05
+2023-09-06 19:46:15
+epoch: 12
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-09-06 19:48:00
+recall: 0.05746914717259164ndcg: 2.128370208297476e-05
+2023-09-06 19:48:00
+epoch: 13
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-09-06 19:49:46
+recall: 0.05746914717259164ndcg: 2.128370208297476e-05
+2023-09-06 19:49:46
+epoch: 14
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-09-06 19:51:34
+recall: 0.05746914717259164ndcg: 2.128370208297476e-05
+2023-09-06 19:51:34
+epoch: 15
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-09-06 19:53:19
+recall: 0.05746914717259164ndcg: 2.128370208297476e-05
+2023-09-06 19:53:19
+epoch: 16

@@ -1,0 +1,12 @@
+2023-09-06 19:20:55
+epoch: 0
+loss: tensor(374.7772, device='cuda:0', grad_fn=<AddBackward0>)
+2023-09-06 19:22:54
+recall: 0.01395284582796095ndcg: 0.0039442066971947035
+2023-09-06 19:22:54
+epoch: 1
+loss: tensor(358.4777, device='cuda:0', grad_fn=<AddBackward0>)
+2023-09-06 19:24:44
+recall: 0.01436728679314791ndcg: 0.004138083846120279
+2023-09-06 19:24:44
+epoch: 2

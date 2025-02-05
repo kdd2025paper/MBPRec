@@ -1,0 +1,42 @@
+dataset: Beibei
+data_path: data/
+epoch: 200
+batch_size: 4096
+test_batch_size: 2048
+dim: 256
+l2: 0.01
+lr: 0.0001
+mess_dropout: False
+mess_dropout_rate: 0.5
+edge_dropout: False
+edge_dropout_rate: 0.5
+batch_test_flag: True
+ns: mixgcf
+K: 5
+n_negs: 64
+pool: mean
+cuda: True
+gpu_id: 0
+Ks: [20, 40, 60]
+test_flag: part
+context_hops: 3
+save: False
+out_dir: ./weights/yelp2018/
+user_sim: 10
+tua0: 1.0
+tua1: 0.5
+tua2: 0.2
+tua3: 0.2
+lamda: 0.2
+topK1: 10
+topK2: 40
+topK3: 80
+2023-10-20 10:56:06
+epoch: 0
+loss: tensor(374.2464, device='cuda:0', grad_fn=<AddBackward0>)
+2023-10-20 10:57:58
+10:recall: 0.004466752624792779 ndcg: 0.0021334199319734863
+40:recall: 0.017314422545588508 ndcg: 0.004964874211739524
+80:recall: 0.030622582427703077 ndcg: 0.007228001813592412
+2023-10-20 10:58:01
+epoch: 1

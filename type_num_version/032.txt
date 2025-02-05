@@ -1,0 +1,68 @@
+dataset: Beibei
+data_path: data/
+epoch: 100
+batch_size: 4096
+test_batch_size: 2048
+dim: 256
+l2: 0.01
+lr: 0.0001
+mess_dropout: False
+mess_dropout_rate: 0.5
+edge_dropout: False
+edge_dropout_rate: 0.5
+batch_test_flag: True
+ns: mixgcf
+K: 5
+n_negs: 64
+pool: mean
+cuda: True
+gpu_id: 0
+Ks: [20, 40, 60]
+test_flag: part
+context_hops: 3
+save: False
+out_dir: ./weights/yelp2018/
+user_sim: 10
+tua0: 1.0
+tua1: 0.5
+tua2: 0.2
+tua3: 0.2
+lamda: 0.2
+topK1: 10
+topK2: 40
+topK3: 80
+2023-12-03 12:03:15
+epoch: 0
+loss: tensor(75.7562, device='cuda:0', grad_fn=<AddBackward0>)
+2023-12-03 12:11:38
+10:recall: 0.005756124516485541 ndcg: 0.002728438929771545
+40:recall: 0.02012341130963345 ndcg: 0.005878471102483365
+80:recall: 0.03587216798673789 ndcg: 0.008556401805313559
+2023-12-03 12:45:05
+epoch: 5
+loss: tensor(0.5026, device='cuda:0', grad_fn=<AddBackward0>)
+2023-12-03 12:53:29
+10:recall: 0.02597163381838276 ndcg: 0.015644044198026386
+40:recall: 0.08836802357708602 ndcg: 0.02929698714579194
+80:recall: 0.1383772333763124 ndcg: 0.03784279148699211
+2023-12-03 13:27:42
+epoch: 10
+loss: tensor(-3.7044, device='cuda:0', grad_fn=<AddBackward0>)
+2023-12-03 13:36:21
+10:recall: 0.0217351261742494 ndcg: 0.014503186046039541
+40:recall: 0.08933505249585559 ndcg: 0.029332991239137737
+80:recall: 0.1363050285503776 ndcg: 0.03735500760939543
+2023-12-03 14:10:46
+epoch: 15
+loss: tensor(-6.1951, device='cuda:0', grad_fn=<AddBackward0>)
+2023-12-03 14:19:23
+10:recall: 0.021458832197458096 ndcg: 0.01390306262974444
+40:recall: 0.09062442438754835 ndcg: 0.028739148933854205
+80:recall: 0.13137778596426597 ndcg: 0.03569443022916596
+2023-12-03 14:53:42
+epoch: 20
+loss: tensor(-10.9268, device='cuda:0', grad_fn=<AddBackward0>)
+2023-12-03 15:02:20
+10:recall: 0.020399705286424756 ndcg: 0.011526211635321653
+40:recall: 0.07317185485356419 ndcg: 0.02282344347601472
+80:recall: 0.1189906060047891 ndcg: 0.030747743313701385

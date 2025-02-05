@@ -1,0 +1,383 @@
+dataset: Beibei
+data_path: data/
+epoch: 50
+batch_size: 4096
+test_batch_size: 2048
+dim: 256
+l2: 0.01
+lr: 0.0001
+mess_dropout: False
+mess_dropout_rate: 0.5
+edge_dropout: False
+edge_dropout_rate: 0.5
+batch_test_flag: True
+ns: mixgcf
+K: 5
+n_negs: 64
+pool: mean
+cuda: True
+gpu_id: 0
+Ks: [20, 40, 60]
+test_flag: part
+context_hops: 3
+save: False
+out_dir: ./weights/yelp2018/
+user_sim: 10
+tua0: 1.0
+tua1: 0.5
+tua2: 0.2
+tua3: 0.2
+lamda: 0.2
+topK1: 10
+topK2: 40
+topK3: 80
+2023-11-23 13:03:19
+epoch: 0
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:04:55
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:04:59
+epoch: 1
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:06:35
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:06:38
+epoch: 2
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:08:15
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:08:18
+epoch: 3
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:09:55
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:09:58
+epoch: 4
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:11:35
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:11:38
+epoch: 5
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:13:14
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:13:17
+epoch: 6
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:14:54
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:14:57
+epoch: 7
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:16:33
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:16:36
+epoch: 8
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:18:12
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:18:16
+epoch: 9
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:19:52
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:19:56
+epoch: 10
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:21:32
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:21:35
+epoch: 11
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:23:11
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:23:14
+epoch: 12
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:24:50
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:24:54
+epoch: 13
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:26:30
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:26:34
+epoch: 14
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:28:10
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:28:13
+epoch: 15
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:29:48
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:29:51
+epoch: 16
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:31:26
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:31:30
+epoch: 17
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:33:04
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:33:08
+epoch: 18
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:34:43
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:34:46
+epoch: 19
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:36:21
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:36:25
+epoch: 20
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:37:59
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:38:02
+epoch: 21
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:39:37
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:39:41
+epoch: 22
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:41:15
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:41:19
+epoch: 23
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:42:54
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:42:57
+epoch: 24
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:44:32
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:44:35
+epoch: 25
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:46:10
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:46:13
+epoch: 26
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:47:48
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:47:52
+epoch: 27
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:49:26
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:49:29
+epoch: 28
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:51:04
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:51:08
+epoch: 29
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:52:43
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:52:46
+epoch: 30
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:54:21
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:54:25
+epoch: 31
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:56:00
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:56:03
+epoch: 32
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:57:38
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:57:41
+epoch: 33
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 13:59:16
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 13:59:19
+epoch: 34
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 14:00:54
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 14:00:58
+epoch: 35
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 14:02:33
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 14:02:36
+epoch: 36
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 14:04:11
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 14:04:15
+epoch: 37
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 14:05:49
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 14:05:52
+epoch: 38
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 14:07:27
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 14:07:30
+epoch: 39
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 14:09:05
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 14:09:09
+epoch: 40
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 14:10:44
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 14:10:47
+epoch: 41
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 14:12:22
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 14:12:25
+epoch: 42
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 14:14:00
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 14:14:03
+epoch: 43
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 14:15:38
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 14:15:41
+epoch: 44
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 14:17:16
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 14:17:19
+epoch: 45
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 14:18:54
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 14:18:58
+epoch: 46
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 14:20:32
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 14:20:35
+epoch: 47
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 14:22:10
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 14:22:13
+epoch: 48
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 14:23:48
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
+2023-11-23 14:23:52
+epoch: 49
+loss: tensor(nan, device='cuda:0', grad_fn=<AddBackward0>)
+2023-11-23 14:25:27
+10:recall: 0.0 ndcg: 0.0
+40:recall: 9.209799226376865e-05 ndcg: 2.128370208297476e-05
+80:recall: 0.0006907349419782648 ndcg: 0.00012320093923777703
